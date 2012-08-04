@@ -16,8 +16,10 @@
 
 # Ignore other unneeded files.
 doc/
+bin/
 *.swp
 *~
 .project
 .DS_Store
 .idea
+bundler_stubs/
