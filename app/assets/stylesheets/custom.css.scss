@@ -121,6 +121,13 @@ aside {
       margin-bottom: 3px;
       line-height: 1;
     }
+    div.note {
+      text-align: right;
+      font-size: .8em;
+    }
+    span#characters_left {
+      display: inline;
+    }
     h1 {
       font-size: 1.6em;
       text-align: left;
@@ -171,6 +178,34 @@ input, textarea, select, .uneditable-input {
     &:last-child {
       border-bottom: 1px solid $grayLighter;
     }
+  }
+}
+
+/* microposts */
+
+.microposts {
+  list-style: none;
+  margin: 10px 0 0 0;
+  
+  li {
+    padding: 10px 0;
+    border-top: 1px solid #e8e8e8;
+  }
+}
+.content {
+  display: block;
+}
+.timestamp {
+  color: $grayLight;
+}
+.gravatar {
+  float: left;
+  margin-right: 10px;
+}
+aside {
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
   }
 }
 
